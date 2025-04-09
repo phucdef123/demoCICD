@@ -10,8 +10,9 @@ public class BaseTest {
 
     @BeforeMethod
     public void setup() {
-        System.setProperty("webdriver.edge.driver", "D:\\Java\\edgedriver_win64\\msedgedriver.exe");
-        driver = new EdgeDriver();
+        System.setProperty("webdriver.chrome.driver", "D:\\Java\\chromedriver-win64\\chromedriver.exe");
+
+        driver = new ChromeDriver();
         driver.manage().window().maximize();
     }
 
