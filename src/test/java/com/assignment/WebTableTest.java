@@ -48,7 +48,7 @@ public class WebTableTest extends BaseTest {
         WebElement deleteBtn = driver.findElement(By.id("delete-record-1"));
         ((JavascriptExecutor) driver).executeScript("arguments[0].click();", deleteBtn);
 
-        Assert.assertFalse(driver.getPageSource().contains("Automation"));
+        Assert.assertFalse(driver.getPageSource().contains("Insurance"));
     }
 }
 
