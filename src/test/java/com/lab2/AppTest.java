@@ -15,7 +15,7 @@ public class AppTest{
 	@Test
 	public void testIsEventNumber4() {
 		App demo = new App();
-		boolean result = demo.isEventNumber(3);
+		boolean result = demo.isEventNumber(4);
 		assertTrue(result);
 	}
 }
