@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name = "Sample suite">
+    <test name = "testing">
+        <groups>
+            <run>
+                <include name = "Smoke Test"/>
+            </run>
+        </groups>
+        <classes>
+            <class name ="com.lab4.GroupTest"/>
+        </classes>
+    </test>
+</suite>
