@@ -6,12 +6,12 @@ import org.testng.annotations.Test;
 
 
 
-public class TestCaculator {
+public class TestCalculator {
     private final Calculator calculator = new Calculator();
 
     @Test
     void testAddition() {
-        Assert.assertEquals(calculator.add(5,6), 11);
+        Assert.assertEquals(calculator.add(5,6), 10);
         Assert.assertNotEquals(calculator.add(5,6), 12);
     }
 
