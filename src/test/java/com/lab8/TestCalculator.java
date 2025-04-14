@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 
 
-public class TestCaculator {
+public class TestCalculator {
     private final Calculator calculator = new Calculator();
 
     @Test
